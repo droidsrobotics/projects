@@ -17,11 +17,11 @@ For building instructions, click on the folder named "building".  You can access
     Happy Birthday: DDED GF DDED AG <br>
 
 ### Step 3: Create a Key <br>
-Here is the key we used: C = Yellow, D = Green, E = Red, F = Black, G = Brown and A = Blue
+Here is the key we used: C = Yellow, D = Green, E = Red, F = Black, G = Brown and A = Blue <br>
 Sample of Key given to students: <a href="https://github.com/droidsrobotics/projects/blob/master/images/Key.png">Key<a>
 
 ### Step 4: Color the Strip <br>
-Give students a strip of paper that is the width of your paper feeder.  If you use our design as is, the width of the paper feeder is 4.25inches (one half of a US Letter paper cut in half lengthwise). Make sure that students color in a bar about as wide as the color sensor. The bars should be approximately in the center of the page (ie. they must be under the color sensor once you insert the paper into the feeder. For younger students you might want to mark the location and bar size ahead of time. Sample Completed Songs: <a href="https://github.com/droidsrobotics/projects/blob/master/images/SampleMusic.JPG">Strips<a>
+Give students a strip of paper that is the width of your paper feeder.  If you use our design as is, the width of the paper feeder is 4.25inches (one half of a US Letter paper cut in half lengthwise). Make sure that students color in a bar about as wide as the color sensor. The bars should be approximately in the center of the page (ie. they must be under the color sensor once you insert the paper into the feeder. For younger students you might want to mark the location and bar size ahead of time. <br> Sample Completed Songs: <a href="https://github.com/droidsrobotics/projects/blob/master/images/SampleMusic.JPG">Strips<a>
   
 ### Step 5: Write Code <br>
 You can download sample code by clicking on the "Code" folder. Depending upon the age of the students, you can either use the Basic code (which only uses switches, loops, sound blocks and a medium motor block) or more Advanced code (which also uses arrays, etc.)  Note: Basic code has been added to this project page. The more advanced code will be added soon. (Updated Mar.8, 2016)
