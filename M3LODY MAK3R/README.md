@@ -15,6 +15,7 @@ For building instructions, click on the folder named "building".  You can access
     Row Row Row Your Boat: CCCDE EDEFG CCC GGG EEE CCC GFEDG <br>
     Twinkle Twinkle Little Star: CC GG AA G FF EE DD C <br>
     Happy Birthday: DDED GF DDED AG <br>
+    Ode to Joy: EEFG GFED CCDE E DD EEFG GFED CCDE D CC
 
 ### Step 3: Create a Key <br>
 Here is the key we used: C = Yellow, D = Green, E = Red, F = Black, G = Brown and A = Blue <br>
