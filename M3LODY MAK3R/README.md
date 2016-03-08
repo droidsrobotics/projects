@@ -19,7 +19,10 @@ For building instructions, click on the folder named "building".  You can access
   Sample: <a href="https://github.com/droidsrobotics/projects/blob/master/images/Key.png">Key<a>
 
 ### Step 4: Color the Strip <br>
-  Sample Completed Songs: <a href="https://github.com/droidsrobotics/projects/blob/master/images/SampleMusic.JPG">Strips<a>
+Make sure that students color in a bar about as wide as the color sensor. The bars should be approximately in the center of the page (ie. they must be under the color sensor once you insert the paper into the feeder. For younger students you might want to mark the location and bar size ahead of time. Sample Completed Songs: <a href="https://github.com/droidsrobotics/projects/blob/master/images/SampleMusic.JPG">Strips<a>
+  
+### Step 5: Write Code <br>
+Depending upon the age of the students, you can either use the Basic code (which only uses switches, loops, sound blocks and a medium motor block) or more Advanced code (which also uses arrays, etc.)  Note: Basic code has been added to this project page. The more advanced code will be added soon.
    
 
 
