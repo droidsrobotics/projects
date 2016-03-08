@@ -23,6 +23,7 @@ This has been tested using Firefox on Ubuntu.
         cd ev3dev/PIX3L\ PLOTT3R/server
         cp home_ubuntu/* ~/
         sudo cp -r www_ubuntu/* /var/www/html/
+        sudo mkdir /var/www/html/uploads/
 
 *   Download this folder (EV3):<br>
         <code>git clone https://github.com/droidsrobotics/ev3dev.git</code><br>
