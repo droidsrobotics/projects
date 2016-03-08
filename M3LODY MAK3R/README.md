@@ -17,7 +17,8 @@ For building instructions, click on the folder named "building".  You can access
     Happy Birthday: DDED GF DDED AG <br>
 
 ### Step 3: Create a Key <br>
-  Sample: <a href="https://github.com/droidsrobotics/projects/blob/master/images/Key.png">Key<a>
+Here is the key we used: C = Yellow, D = Green, E = Red, F = Black, G = Brown and A = Blue
+Sample of Key given to students: <a href="https://github.com/droidsrobotics/projects/blob/master/images/Key.png">Key<a>
 
 ### Step 4: Color the Strip <br>
 Give students a strip of paper that is the width of your paper feeder.  If you use our design as is, the width of the paper feeder is 4.25inches (one half of a US Letter paper cut in half lengthwise). Make sure that students color in a bar about as wide as the color sensor. The bars should be approximately in the center of the page (ie. they must be under the color sensor once you insert the paper into the feeder. For younger students you might want to mark the location and bar size ahead of time. Sample Completed Songs: <a href="https://github.com/droidsrobotics/projects/blob/master/images/SampleMusic.JPG">Strips<a>
