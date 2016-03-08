@@ -1,13 +1,10 @@
-<h1>M3LODY MAK3R Project</h1>
-<img src="https://raw.githubusercontent.com/droidsrobotics/projects/master/images/MainElements.JPG">
+<h1>DROIDBOT JR Project</h1>
+<img src="https://raw.githubusercontent.com/droidsrobotics/projects/master/images/DroidJR.png">
 
-This robot was designed as a STEAM activity for K-4. It combines art, music and robotics.  Students can build a robot that plays music. For building instructions, click on the folder named "building".  You can access the .lxf file.  .lxf files can be opened with LEGO digital designer which is a free software from LEGO.  Once inside you can view the build in detail or ask the software to generate building instructions for you.
+This robot was designed for classroom and camp usage by those users who only own a 31313 set.  All the standard 31313 builds are animals, humanoids or other interesting designs, but not optimal for teaching programming systematically.
 
-To preview this project: <a href="https://youtu.be/6ymDTEkohkw">YouTube<a>
+Click on "Building" to download the .lxf for this design.
 
-Sample Songs: <a href="https://github.com/droidsrobotics/projects/blob/master/images/SampleMusic.JPG">Songs<a>
-
-Sample Key: <a href="https://github.com/droidsrobotics/projects/blob/master/images/Key.png">Key<a>
 
 Download LEGO Digital Designer here: <a href="http://ldd.lego.com/">LDD</a>
 
