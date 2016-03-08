@@ -84,7 +84,7 @@ def makedot():
 filename = sys.argv[1]
 cmd = "cp "+filename+" print.jpg"
 
-#os.system("convert "+filename+" -resize 80 /home/sanjay/print.jpg") #alternate automatic resizer for image note -- changes color of pixels (do not know why)
+#os.system("convert "+filename+" -resize 80 print.jpg") #alternate automatic resizer for image note -- changes color of pixels (do not know why)
 
 #execute copy
 os.system(cmd)

@@ -76,7 +76,7 @@ def makedot():
 
 #resise and flip image
 filename = sys.argv[1]
-cmd = "convert " + filename + " -threshold 90% -flop -resize " + str(res) + " /home/sanjay/print.jpg"
+cmd = "convert " + filename + " -threshold 90% -flop -resize " + str(res) + " print.jpg"
 os.system(cmd) #execute command
 image_file = Image.open('print.jpg') # open image print.jpg in current directory
 image_file = image_file.convert('1') # convert image to pure black and white (just in case image is greyscale or color)

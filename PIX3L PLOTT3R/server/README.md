@@ -24,19 +24,23 @@ This has been tested using Firefox on Ubuntu.
         cp home_ubuntu/* ~/
         sudo cp -r www_ubuntu/* /var/www/html/
 
-*   Download this folder (EV3):
-*   
-        git clone https://github.com/droidsrobotics/ev3dev.git
-        cd ev3dev/PIX3L\ PLOTT3R/server
-        cp ev3_home/* ~/
+*   Download this folder (EV3):<br>
+        <code>git clone https://github.com/droidsrobotics/ev3dev.git</code><br>
+        <code>cd ev3dev/PIX3L\ PLOTT3R/server</code><br>
+        <code>cp ev3_home/* ~/</code><br>
 
-You will need to replace <code>192.168.43.22</code> in printer.py with the ev3's ip address
-You will also need to replace <code>robot</code> and <code>maker</code> in printer.(py)/(sh) with your ev3 username and password.
-(printer.py is on the Ubuntu computer and printer.sh is on the ev3)
+You will need to replace <code>192.168.43.22</code> in sendprint.py with the ev3's ip address
+You will also need to replace <code>robot</code> and <code>maker</code> in sendprint.py and printer.sh with your ev3 username and password.
+(printsend.py is on the Ubuntu computer and printer.sh is on the ev3)
 
 *   Run Code (Ubuntu):
   
         cd ~/
-        python printer.py
+        mkdir files
+        mkdir lock
+        python printer.py &
+        python sendprint.py 
         Go to http://localhost/ in Firefox
+
+To manage more than one printer, duplicate printsend.py and run all the versions at once.
 

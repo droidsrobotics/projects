@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*- import python packages
-#This code DOES NOT wait for user dialogue
+
 #install --> (sudo) apt-get install python-pip --> (sudo) pip install pillow python-ev3dev
 #running --> run (sudo) python pythonfilename.py imagefilename.png (jpg will work along with others types) -->
-
+#This version is optimised for a 500x300 image --> made for web interface
 from PIL import Image, ImageFilter
 import ev3dev.ev3 as ev3
 import time
@@ -47,7 +47,7 @@ paper.stop_command = u"brake"
 LR.ramp_up_sp=100
 LR.ramp_down_sp=200
 LR.reset()
-LR.run_to_abs_pos(position_sp=-50, duty_cycle_sp=75)
+LR.run_to_abs_pos(position_sp=-30, duty_cycle_sp=75)
 waitformotor(LR)
 waitformotor(LR)
 LR.reset()
@@ -68,14 +68,14 @@ def makedot():
     pen.run_timed(time_sp=250, duty_cycle_sp=-75)
     waitformotor(pen)
     waitformotor(pen) #double check if motor is stopped before raising pen
-    pen.run_timed(time_sp=100, duty_cycle_sp=75)
+    pen.run_timed(time_sp=80, duty_cycle_sp=75)
     waitformotor(pen)
     waitformotor(pen)
 
 
 #resise and flip image
 filename = sys.argv[1]
-cmd = "convert " + filename + " -threshold 90% -flop -resize " + str(res) + " /home/sanjay/print.jpg"
+cmd = "convert "+ filename +" -flatten -flop -resize 83 +dither -colors 2 -colorspace gray -normalize print.jpg"
 os.system(cmd) #execute command
 image_file = Image.open('print.jpg') # open image print.jpg in current directory
 image_file = image_file.convert('1') # convert image to pure black and white (just in case image is greyscale or color)
@@ -97,6 +97,7 @@ while h != height:
 
 all_pixels = array #save array of pixels to all_pixels
 
+#x = input('Type text to preview picture (in quotes) >>') #wait until dialogue is answered then show preview
 
 width, height = img.size #get image size
 xd = 0
@@ -114,6 +115,7 @@ while yd != height:
     yd = yd + 1
     xd = 0
 
+#x = input('Is this picture ok? If not pres ctrl-c >>') #wait for dialogue to be answered then start printing
 
 xd = 0
 yd = 0
@@ -131,8 +133,8 @@ while yd != height:
         else:
             print " ",
             #move pen left
-            LR.run_to_abs_pos(position_sp=horiz_move*xd, speed_sp=400, ramp_down_sp=500)
-            waitformotor(LR)
+            # LR.run_to_abs_pos(position_sp=horiz_move*xd, speed_sp=400, ramp_down_sp=500)
+            # waitformotor(LR)
         xd = xd + 1
         xda = xda + 1
 
@@ -142,13 +144,14 @@ while yd != height:
     # move paper forward
     paper.run_to_abs_pos(position_sp=vert_move*(yd), speed_sp=250,ramp_down_sp=500)
     # reset pen location
-    LR.run_to_abs_pos(position_sp=0, duty_cycle_sp=75)
+    #LR.run_to_abs_pos(position_sp=0, duty_cycle_sp=75)
     waitformotor(paper)
     waitformotor(paper)
-    waitformotor(LR)
-    waitformotor(LR)
+    #waitformotor(LR)
+    #waitformotor(LR)
 
 paper.run_timed(time_sp=5000, duty_cycle_sp=75) #eject paper
 time.sleep(5)
-LR.run_to_abs_pos(position_sp=50, duty_cycle_sp=75) #reset to original position
+LR.run_to_abs_pos(position_sp=0, duty_cycle_sp=75) #reset to original position
+LR.run_timed(time_sp=6000, duty_cycle_sp=-75) #reset to edge
 time.sleep(2)

@@ -12,7 +12,7 @@ function canvasApp(){
     if (!canvasSupport()) {
 	return;
     }else{
-	var theCanvas = document.getElementById('canvas');
+	var theCanvas = document.getElementById('sketch');
 	var context = theCanvas.getContext('2d');
 	var redButton = document.getElementById("Red");
 	var orangeButton = document.getElementById("Orange");
@@ -46,7 +46,7 @@ function canvasApp(){
 	theCanvas.addEventListener('touchstart', touch_pressed_down, false);
 
 	var imageObj = new Image();
-	imageObj.src = 'mat.jpg';
+//	imageObj.src = 'mat.jpg';
         imageObj.onload = function() {
             context.drawImage(imageObj, 0, 0, theCanvas.width, theCanvas.height);
         };
