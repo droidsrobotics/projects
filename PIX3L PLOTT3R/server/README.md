@@ -19,13 +19,13 @@ This has been tested using Firefox on Ubuntu.
 
 *   Download this folder (PC):
 *   
-        git clone https://github.com/droidsrobotics/ev3dev.git
+        git clone https://github.com/droidsrobotics/projects.git
         cd ev3dev/PIX3L\ PLOTT3R/server
         cp pc_files/home/* ~/
         sudo cp -r pc_files/html/* /var/www/html/
 
 *   Download this folder (EV3):<br>
-        <code>git clone https://github.com/droidsrobotics/ev3dev.git</code><br>
+        <code>git clone https://github.com/droidsrobotics/projects.git</code><br>
         <code>cd ev3dev/PIX3L\ PLOTT3R/server</code><br>
         <code>cp ev3_files/* ~/</code><br>
 
