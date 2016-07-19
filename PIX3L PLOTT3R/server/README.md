@@ -2,11 +2,11 @@
 
 The ev3 printer now has a web interface where you can type text and draw!
 
-This has been tested using Firefox on Ubuntu.
+This has been tested using Firefox on Debian 8.x 9.x or derivitive such as Ubuntu 15.10 and 16.04.
 
+The ev3 runs ev3dev (tested on Debian Jessie and Stretch/Sid)
 
-
-*   Prerequisites (Ubuntu):
+*   Prerequisites (PC):
 *   
         sudo apt-get update
         sudo apt-get upgrade
