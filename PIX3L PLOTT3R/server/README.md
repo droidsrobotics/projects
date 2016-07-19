@@ -26,7 +26,7 @@ The ev3 runs ev3dev (tested on Debian Jessie and Stretch/Sid)
 
 *   Download this folder (EV3):<br>
         <code>git clone https://github.com/droidsrobotics/projects.git</code><br>
-        <code>cd ev3dev/PIX3L\ PLOTT3R/server</code><br>
+        <code>cd projects/PIX3L\ PLOTT3R/server</code><br>
         <code>cp ev3_files/* ~/</code><br>
 
 You will need to replace <code>192.168.43.22</code> in sendprint.py with the ev3's ip address
@@ -40,7 +40,7 @@ You will also need to replace <code>robot</code> and <code>maker</code> in sendp
         mkdir lock
         python printer.py &
         python sendprint.py & 
-        Go to http://localhost/ in Firefox
+        Go to http://localhost/ in Firefox/Iceweasel
 
 To manage more than one printer, duplicate printsend.py and run all the versions at once.
 
