@@ -27,11 +27,11 @@ We also provide sample images.
 
 *   Run Black and White Code:
   
-        sudo python printmonochrome.py "sample_images/monochrome/IMAGE_HERE.jpg"
+        sudo python printmonochrome.py "sample\ images/monochrome/IMAGE_HERE.jpg"
 
 *   Run Color Code:
 
-        sudo python printcolor.py "sample_images/color/IMAGE_HERE.png"
+        sudo python printcolor.py "sample\ images/color/IMAGE_HERE.png"
         
 The color printing program will print 4 times with different pens. The code understands red, green, blue, and black and will automatically split images up into these colors. The file <code>printcolor-use-color-sensor.py</code> uses the color sensor to reset the paper position for each color.
 
