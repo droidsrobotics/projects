@@ -6,7 +6,7 @@ The robot can print from any image file using python!
 We provide code to print in black & white and color.
 We also provide sample images.
 
-
+Note: The code only works with the 3.16.7-ckt21-9-ev3dev-ev3 linux kernel. You will have to convert the code to work with the latest version (linux kernel 4.4).
 
 *   Prerequisites:
 *   
