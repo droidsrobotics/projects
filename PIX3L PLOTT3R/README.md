@@ -1,6 +1,8 @@
 <h1>PIX3L PLOTT3R Project</h1>
 <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xlt1/v/t1.0-9/12742519_1509710212669723_4304083322119299525_n.jpg?oh=b11d74b98a01d2f8db4a8b8aaad7529b&oe=57548740">
 
+UPDATE: LATEST CODE MOVED TO https://github.com/sanjayseshan/PixelPlotter
+
 The robot can print from any image file using python!
 
 We provide code to print in black & white and color.
