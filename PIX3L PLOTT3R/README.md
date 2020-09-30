@@ -3,6 +3,10 @@
 
 UPDATE: LATEST CODE MOVED TO https://github.com/sanjayseshan/PixelPlotter
 
+
+See below for old code instructions
+<br><br><br><br><br><br><br>
+
 The robot can print from any image file using python!
 
 We provide code to print in black & white and color.
